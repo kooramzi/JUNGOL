@@ -8,7 +8,7 @@ public class JO545 {
 
 		Scanner sc = new Scanner(System.in);
 
-		for (int i = 0; i <= 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			int x = sc.nextInt();
 
 			if (x % 3 == 0) {
@@ -24,4 +24,5 @@ public class JO545 {
 		System.out.println("Multiples of 5 : " + cnt5);
 	}
 
-}
+	}
+
